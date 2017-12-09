@@ -14,6 +14,8 @@ function deleteFromObjectByKey(recipes, chia) {
   return recipes
 }
 
-
+function deleteFromObjectByKey(recipes, chia) {
+  return recipes.slice(1)
+}
 
 //////spread or objective.assign, modify the clone instead of the original
